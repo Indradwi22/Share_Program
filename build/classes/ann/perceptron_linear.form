@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" pref="930" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jButton3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="hasil" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="tf_soal1" min="-2" pref="42" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="tf_soal2" min="-2" pref="42" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="tf_soal3" min="-2" pref="42" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="tf_soal4" min="-2" pref="42" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tf_soal5" min="-2" pref="42" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Component id="tf_soal6" min="-2" pref="42" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tf_soal7" min="-2" pref="42" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tf_soal8" min="-2" pref="42" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tf_soal9" min="-2" pref="42" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="tf_laju" min="-2" pref="47" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="tf_t" min="-2" pref="49" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="iterasi" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jLabel11" max="32767" attributes="0"/>
+                                          <Component id="tf_b" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jTextField1" min="-2" pref="39" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tf_w1" min="-2" pref="42" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tf_w2" min="-2" pref="42" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tf_w3" min="-2" pref="42" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tf_w4" min="-2" pref="42" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tf_w5" min="-2" pref="42" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                                      <Component id="tf_w6" min="-2" pref="42" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tf_w7" min="-2" pref="42" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tf_w8" min="-2" pref="42" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="tf_w9" pref="42" max="32767" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jButton4" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_w1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_w2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_w3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_w4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_w5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_w6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_w7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_w8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_w9" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tf_b" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tf_laju" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tf_t" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="iterasi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="213" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_soal1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_soal2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_soal3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_soal4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_soal5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_soal6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_soal7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_soal8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_soal9" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hasil" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="w =["/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_w1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0.9"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_w2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-0.8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="]"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="b ="/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_b">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Laju pembelajaran ="/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_laju">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0.8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="T ="/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_t">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Proses"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="11" rowCount="20">
+                <Column editable="true" title="N" type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="2"/>
+                  <Data value="3"/>
+                  <Data value="4"/>
+                  <Data value="5"/>
+                  <Data value="6"/>
+                  <Data value="7"/>
+                  <Data value="8"/>
+                  <Data value="9"/>
+                  <Data value="10"/>
+                  <Data value="11"/>
+                  <Data value="12"/>
+                  <Data value="13"/>
+                  <Data value="14"/>
+                  <Data value="15"/>
+                  <Data value="16"/>
+                  <Data value="17"/>
+                  <Data value="18"/>
+                  <Data value="19"/>
+                  <Data value="20"/>
+                </Column>
+                <Column editable="true" title="Clump Thickness" type="java.lang.Object">
+                  <Data value="5"/>
+                  <Data value="5"/>
+                  <Data value="8"/>
+                  <Data value="8"/>
+                  <Data value="8"/>
+                  <Data value="4"/>
+                  <Data value="5"/>
+                  <Data value="1"/>
+                  <Data value="5"/>
+                  <Data value="3"/>
+                  <Data value="5"/>
+                  <Data value="10"/>
+                  <Data value="2"/>
+                  <Data value="10"/>
+                  <Data value="5"/>
+                  <Data value="6"/>
+                  <Data value="10"/>
+                  <Data value="1"/>
+                  <Data value="4"/>
+                  <Data value="7"/>
+                </Column>
+                <Column editable="true" title="Uniformity of Cell Size" type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="4"/>
+                  <Data value="10"/>
+                  <Data value="7"/>
+                  <Data value="7"/>
+                  <Data value="1"/>
+                  <Data value="3"/>
+                  <Data value="1"/>
+                  <Data value="2"/>
+                  <Data value="2"/>
+                  <Data value="1"/>
+                  <Data value="7"/>
+                  <Data value="1"/>
+                  <Data value="10"/>
+                  <Data value="4"/>
+                  <Data value="10"/>
+                  <Data value="10"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="8"/>
+                </Column>
+                <Column editable="true" title="Uniformity of Cell Shape" type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="4"/>
+                  <Data value="10"/>
+                  <Data value="5"/>
+                  <Data value="5"/>
+                  <Data value="1"/>
+                  <Data value="3"/>
+                  <Data value="1"/>
+                  <Data value="3"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="7"/>
+                  <Data value="1"/>
+                  <Data value="10"/>
+                  <Data value="4"/>
+                  <Data value="10"/>
+                  <Data value="10"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="7"/>
+                </Column>
+                <Column editable="true" title="Marginal Adhesion" type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="5"/>
+                  <Data value="8"/>
+                  <Data value="10"/>
+                  <Data value="10"/>
+                  <Data value="1"/>
+                  <Data value="3"/>
+                  <Data value="1"/>
+                  <Data value="4"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="3"/>
+                  <Data value="2"/>
+                  <Data value="8"/>
+                  <Data value="9"/>
+                  <Data value="2"/>
+                  <Data value="4"/>
+                  <Data value="1"/>
+                  <Data value="3"/>
+                  <Data value="2"/>
+                </Column>
+                <Column editable="true" title="Single Epithelial Cell Size" type="java.lang.Object">
+                  <Data value="2"/>
+                  <Data value="7"/>
+                  <Data value="7"/>
+                  <Data value="7"/>
+                  <Data value="7"/>
+                  <Data value="2"/>
+                  <Data value="2"/>
+                  <Data value="2"/>
+                  <Data value="2"/>
+                  <Data value="1"/>
+                  <Data value="2"/>
+                  <Data value="8"/>
+                  <Data value="2"/>
+                  <Data value="6"/>
+                  <Data value="2"/>
+                  <Data value="8"/>
+                  <Data value="8"/>
+                  <Data value="2"/>
+                  <Data value="2"/>
+                  <Data value="4"/>
+                </Column>
+                <Column editable="true" title="Bare Nuclei" type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="10"/>
+                  <Data value="10"/>
+                  <Data value="9"/>
+                  <Data value="9"/>
+                  <Data value="1"/>
+                  <Data value="3"/>
+                  <Data value="1"/>
+                  <Data value="7"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="5"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="10"/>
+                  <Data value="10"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="8"/>
+                </Column>
+                <Column editable="true" title="Bland Chromatin" type="java.lang.Object">
+                  <Data value="3"/>
+                  <Data value="3"/>
+                  <Data value="9"/>
+                  <Data value="5"/>
+                  <Data value="5"/>
+                  <Data value="2"/>
+                  <Data value="4"/>
+                  <Data value="3"/>
+                  <Data value="3"/>
+                  <Data value="2"/>
+                  <Data value="2"/>
+                  <Data value="7"/>
+                  <Data value="3"/>
+                  <Data value="8"/>
+                  <Data value="5"/>
+                  <Data value="7"/>
+                  <Data value="8"/>
+                  <Data value="2"/>
+                  <Data value="3"/>
+                  <Data value="3"/>
+                </Column>
+                <Column editable="true" title="Normal Nucleoli" type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="2"/>
+                  <Data value="7"/>
+                  <Data value="5"/>
+                  <Data value="5"/>
+                  <Data value="1"/>
+                  <Data value="4"/>
+                  <Data value="1"/>
+                  <Data value="6"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="4"/>
+                  <Data value="1"/>
+                  <Data value="9"/>
+                  <Data value="6"/>
+                  <Data value="3"/>
+                  <Data value="10"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="8"/>
+                </Column>
+                <Column editable="true" title="Mitoses" type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="4"/>
+                  <Data value="4"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="3"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="3"/>
+                  <Data value="1"/>
+                  <Data value="2"/>
+                  <Data value="1"/>
+                  <Data value="2"/>
+                </Column>
+                <Column editable="true" title="Class" type="java.lang.Object">
+                  <Data value="2"/>
+                  <Data value="2"/>
+                  <Data value="4"/>
+                  <Data value="4"/>
+                  <Data value="4"/>
+                  <Data value="2"/>
+                  <Data value="4"/>
+                  <Data value="2"/>
+                  <Data value="4"/>
+                  <Data value="2"/>
+                  <Data value="2"/>
+                  <Data value="4"/>
+                  <Data value="2"/>
+                  <Data value="4"/>
+                  <Data value="4"/>
+                  <Data value="4"/>
+                  <Data value="4"/>
+                  <Data value="2"/>
+                  <Data value="2"/>
+                  <Data value="4"/>
+                </Column>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Automatic"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Iterasi ke = "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="iterasi">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="0 "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Soal :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_soal1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0.2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="nilai vektor =["/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="]"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_soal2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-0.7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Proses"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="y ="/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hasil">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_w3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-0.8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_w4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-0.8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_w5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-0.8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_w6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-0.8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_w7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-0.8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_w8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-0.8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_w9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-0.8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_soal3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-0.7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_soal4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-0.7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_soal5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-0.7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_soal6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-0.7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_soal7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-0.7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_soal8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-0.7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_soal9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-0.7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Set Jumlah Row ="/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Set"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Open File..."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
